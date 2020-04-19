@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="tests.SiginUpTest">
+        <methods>
+          <include name="SignUpviaEmail"/>
+          <include name="SignUpviaTwitter"/>
+          <include name="SignUpviafacebook"/>
+        </methods>
+      </class> <!-- tests.SiginUpTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="LoginviaTwitter"/>
+          <include name="Loginviafacebook"/>
+          <include name="LoginviaEmail"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

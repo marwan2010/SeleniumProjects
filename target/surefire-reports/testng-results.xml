@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="57" started-at="2020-04-19T00:19:05Z" finished-at="2020-04-19T00:19:05Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="57" started-at="2020-04-19T00:19:05Z" finished-at="2020-04-19T00:19:05Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="LoginviaEmail()[pri:0, instance:tests.LoginTest@edf4efb]" name="LoginviaEmail" duration-ms="1" started-at="2020-04-19T00:19:05Z" finished-at="2020-04-19T00:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginviaEmail -->
+        <test-method status="PASS" signature="LoginviaTwitter()[pri:0, instance:tests.LoginTest@edf4efb]" name="LoginviaTwitter" duration-ms="2" started-at="2020-04-19T00:19:05Z" finished-at="2020-04-19T00:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginviaTwitter -->
+        <test-method status="PASS" signature="Loginviafacebook()[pri:0, instance:tests.LoginTest@edf4efb]" name="Loginviafacebook" duration-ms="0" started-at="2020-04-19T00:19:05Z" finished-at="2020-04-19T00:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginviafacebook -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.TestBase">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.TestBase@7f690630]" name="startDriver" is-config="true" duration-ms="17367" started-at="2020-04-19T00:18:48Z" finished-at="2020-04-19T00:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+      </class> <!-- tests.TestBase -->
+      <class name="tests.SiginUpTest">
+        <test-method status="PASS" signature="SignUpviaEmail()[pri:0, instance:tests.SiginUpTest@2f7a2457]" name="SignUpviaEmail" duration-ms="0" started-at="2020-04-19T00:19:05Z" finished-at="2020-04-19T00:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpviaEmail -->
+        <test-method status="PASS" signature="SignUpviaTwitter()[pri:0, instance:tests.SiginUpTest@2f7a2457]" name="SignUpviaTwitter" duration-ms="0" started-at="2020-04-19T00:19:05Z" finished-at="2020-04-19T00:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpviaTwitter -->
+        <test-method status="PASS" signature="SignUpviafacebook()[pri:0, instance:tests.SiginUpTest@2f7a2457]" name="SignUpviafacebook" duration-ms="0" started-at="2020-04-19T00:19:05Z" finished-at="2020-04-19T00:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpviafacebook -->
+      </class> <!-- tests.SiginUpTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

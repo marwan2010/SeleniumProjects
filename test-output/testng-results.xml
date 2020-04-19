@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Fncational TestSuite" duration-ms="86" started-at="2020-04-17T23:25:54Z" finished-at="2020-04-17T23:25:54Z">
+    <groups>
+    </groups>
+    <test name="BasicTests" duration-ms="86" started-at="2020-04-17T23:25:54Z" finished-at="2020-04-17T23:25:54Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="LoginviaEmail()[pri:0, instance:tests.LoginTest@20d3d15a]" name="LoginviaEmail" duration-ms="3" started-at="2020-04-17T23:25:54Z" finished-at="2020-04-17T23:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginviaEmail -->
+        <test-method status="PASS" signature="LoginviaTwitter()[pri:0, instance:tests.LoginTest@20d3d15a]" name="LoginviaTwitter" duration-ms="2" started-at="2020-04-17T23:25:54Z" finished-at="2020-04-17T23:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginviaTwitter -->
+        <test-method status="PASS" signature="Loginviafacebook()[pri:0, instance:tests.LoginTest@20d3d15a]" name="Loginviafacebook" duration-ms="3" started-at="2020-04-17T23:25:54Z" finished-at="2020-04-17T23:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginviafacebook -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.SiginUpTest">
+        <test-method status="PASS" signature="SignUpviaEmail()[pri:0, instance:tests.SiginUpTest@214b199c]" name="SignUpviaEmail" duration-ms="12" started-at="2020-04-17T23:25:54Z" finished-at="2020-04-17T23:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpviaEmail -->
+        <test-method status="PASS" signature="SignUpviaTwitter()[pri:0, instance:tests.SiginUpTest@214b199c]" name="SignUpviaTwitter" duration-ms="2" started-at="2020-04-17T23:25:54Z" finished-at="2020-04-17T23:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpviaTwitter -->
+        <test-method status="PASS" signature="SignUpviafacebook()[pri:0, instance:tests.SiginUpTest@214b199c]" name="SignUpviafacebook" duration-ms="2" started-at="2020-04-17T23:25:54Z" finished-at="2020-04-17T23:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpviafacebook -->
+      </class> <!-- tests.SiginUpTest -->
+    </test> <!-- BasicTests -->
+  </suite> <!-- Fncational TestSuite -->
+</testng-results>
